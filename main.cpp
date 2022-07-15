@@ -122,6 +122,6 @@ int main( int argc, char* argv[] ) {
     close( epollfd );
     close( listenfd );
     delete [] users;
-    delete pool;
+    delete pool;//
     return 0;
 }
